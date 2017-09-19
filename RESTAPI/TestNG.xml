@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Google places API TestSuite">
+
+
+<test name="Rest Assured API">
+
+
+<classes>
+
+<class name="MavenFramework.AddDeletePlace"/>
+<class name="MavenFramework.CreatePlace"/>
+<class name="MavenFramework.ExtractingNames"/>
+<class name="MavenFramework.GetPlace"/>
+
+</classes>
+
+</test>
+
+</suite>
